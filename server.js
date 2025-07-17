@@ -24,7 +24,7 @@ app.post('/upload', upload.single('file'), async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'sanjupiscean@gmail.com',
+    to: 'sendphoto@fixmyphoto.in',
     subject: `New File Submission from ${name}`,
     text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     attachments: [
